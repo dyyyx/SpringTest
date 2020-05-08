@@ -10,7 +10,13 @@ import org.springframework.stereotype.Service;
  * @date 2020/04/28 19:02
  **/
 @Service
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class ServiceB {
+
     @Autowired
     private ServiceA serviceA;
+
+    public void testB1(){
+        System.out.println("testB1 Method");
+    }
 }
