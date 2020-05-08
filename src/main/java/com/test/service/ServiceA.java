@@ -11,7 +11,6 @@ import org.springframework.stereotype.Service;
  * @date 2020/04/28 19:02
  **/
 @Service
-@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class ServiceA {
 
     @Autowired
