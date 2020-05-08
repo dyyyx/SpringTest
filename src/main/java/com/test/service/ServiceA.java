@@ -13,16 +13,5 @@ import org.springframework.stereotype.Service;
 @Service
 public class ServiceA {
 
-    @Autowired
-    private ServiceB serviceB;
-
-    @Async
-    public void testA1() {
-        System.out.println("testA1 Method");
-    }
-
-    public void testA2() {
-        System.out.println("testA2 Method");
-    }
 
 }
