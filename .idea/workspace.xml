@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bbb8ac6-6eda-4d0c-ac95-24a2ba38081e" name="Default Changelist" comment="" />
+    <list default="true" id="4bbb8ac6-6eda-4d0c-ac95-24a2ba38081e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/service/ServiceA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/service/ServiceA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/service/ServiceB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/service/ServiceB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NormalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NormalTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,11 +16,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bADru1nRmUZ6cvFtHW5JhmrYwA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -29,6 +39,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test.proxy.dynamic.jdk" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -41,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringTestApplication">
+  <component name="RunManager" selected="JUnit.NormalTest.test">
     <configuration name="NormalTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -67,8 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SpringTestApplication" />
         <item itemvalue="JUnit.NormalTest.test" />
+        <item itemvalue="Spring Boot.SpringTestApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -84,12 +99,26 @@
       <updated>1588066206586</updated>
       <workItem from="1588066210104" duration="2778000" />
       <workItem from="1588150807576" duration="2230000" />
-      <workItem from="1588232744697" duration="7279000" />
+      <workItem from="1588232744697" duration="7878000" />
+      <workItem from="1595295837290" duration="2850000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

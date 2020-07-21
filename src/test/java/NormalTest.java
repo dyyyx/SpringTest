@@ -1,3 +1,6 @@
+import com.test.proxy.normal.User;
+import com.test.proxy.normal.UserInterface;
+import com.test.proxy.normal.UserProxy;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -10,8 +13,18 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class NormalTest {
 
     @Test
-    public void test(){
+    public void testStaticProxy(){
+        UserInterface target = new User();
+        UserProxy proxy = new UserProxy(target);
 
+        proxy.login();
+        System.out.println("***************************");
+        System.out.println(proxy.queryUserInfo());
+    }
+
+    @Test
+    public void testJdkProxy(){
+        final User user = new User();
     }
 
 
